@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+/* *{
+  margin: 3px;
+} */
+
+.box{
+  @apply bg-purple-500 text-white;
+}
