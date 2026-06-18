@@ -22,10 +22,10 @@ export const todoSlice = createSlice({
     },
     markAsDone: (state, action) => {
       state.todos = state.todos.map((todo) => {
-        if (todo.od === action.payload) {
+        if (todo.id === action.payload) {
           todo.isDone = true;
         }
-      })
+      });
     }
   },
 });
